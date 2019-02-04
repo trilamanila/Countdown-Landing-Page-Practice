@@ -1,0 +1,47 @@
+*{
+  box-sizing: border-box
+}
+
+html, body {
+  margin: 0;
+  fontfamily: Arial, Helvetica, sans-serif;
+  color: #fff;
+  background: #333;
+  overflow: hidden;
+}
+
+.landing {
+  position: absolute;
+  background-image: url('../img/showcase.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+
+}
+
+.landing-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%
+  background: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  padding-top: 50px;
+}
+
+.landing h1{
+  font-size: 50px;
+}
+
+.landing p{
+  font-size: 20px;
+}
+
+.countdown {
+  font-size: 50px;
+  display: flex;
+  justify-content: cneter;
+  align-items: center;
+  text-align: center;
+}
